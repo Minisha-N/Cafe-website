@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cafe</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="./images/mocha.png" width=250 height=250 alt="">
+            </a>
+            <nav class="navbar">
+               <a href="#home">Home</a>
+               <a href="#about">About</a>
+               <a href="#menu">Menu</a>
+               <a href="#products">Products</a>
+               <a href="#contact">Contacts</a>
+            </nav>
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="search here">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+
+            <div class="cart-item-container">
+                <a href="#" class="btn">Checkout now</a>
+            </div>
+        </header>
+
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Freshly baked for your loved ones..</h3>
+                <p>Discover a cozy cafe where every sip tells a story. Savor our handcrafted brews and delightful pastries</p>
+                <a href="#" class="btn">Get your sip now </a>
+            </div>
+            <div class="highlights">
+                <h4>Our Highlights:</h4>
+                <ul>
+                    <li>Wide variety of coffee blends and flavors</li>
+                    <li>Delicious, freshly baked pastries</li>
+                    <li>Relaxing and welcoming ambiance</li>
+                    <li>Exceptional service with a smile</li>
+                </ul>
+            </div>
+        </section> 
+        
+
+        <!--About section starts -->
+        <section class="about" id="about">
+            <h1 class="heading"><span>About </span>us</h1>
+
+            <div class="row">
+                <div class="images">
+                    <img src="./images/about.jpeg" width="200" height="300" alt="" />
+                </div>
+                <div class="content">
+                    <h3>What makes our cafe special</h3>
+                    <p>Welcome to Mocha Mania, your cozy haven for great coffee, delicious treats, and warm conversations. We're more than just a cafe; we're a community of coffee enthusiasts who love to serve you the finest brews with a smile.</p>
+                    <p>Our journey began in 1990, and since then, we've been dedicated to providing a welcoming space for you to relax, work, or catch up with friends. From our carefully selected coffee beans to our mouthwatering pastries, everything we offer is a labor of love.</p>
+                    <p>Our passion is to provide the best quality coffee and desserts that you would love to buy from any other store in.Join us in celebrating the love for coffee, good food, and great company. We can't wait to share our passion with you and create memorable moments, one cup at a time. </p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <!--About section ends -->
+        <!-- Menu starts -->
+        <section class="menu" id="menu">
+            <h1 class="heading"> Our <span>Delights</span></h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="./images/cupcake 1.png" height="250" width="150" alt="">
+                    <h3>Litchi</h3>
+                    <div class="price">70</div>
+                    <div class="description">
+                        <p>Delicious litchi flavored cupcake with a hint of sweetness.</p>
+                    </div>    
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/cupcake 2.png" height="250" width="150" alt="">
+                    <h3>Pineapple</h3>
+                    <div class="price">70</div>
+                    <div class="description">
+                        <p>A tropical delight with the perfect balance of pineapple sweetness.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/cupcake 3.png" height="250" width="150" alt="">
+                    <h3>Black forest</h3>
+                    <div class="price">70</div>
+                    <div class="description">
+                        <p>A tropical delight with the perfect balance of pineapple sweetness.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/cup cake 4.png" height="250" width="150" alt="">
+                    <h3>Vanilla</h3>
+                    <div class="price">80</div>
+                    <div class="description">
+                        <p> Classic vanilla goodness in a delightful cupcake form, perfect for any occasion.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/cupcake 5.png" height="250" width="150" alt="">
+                    <h3>Red velvet</h3>
+                    <div class="price">70</div>
+                    <div class="description">
+                        <p> A velvety, crimson delight with a hint of cocoa and a cream cheese frosting.</p>
+                    </div>  
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/cupcake 6.png" height="250" width="150" alt="">
+                    <h3>Chocolate</h3>
+                    <div class="price">80</div>
+                    <div class="description">
+                        <p>A heavenly treat for chocolate lovers, rich and decadent with a chocolatey surprise inside.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/latte.png" height="250" width="150" alt="">
+                    <h3>Latte</h3>
+                    <div class="price">110</div>
+                    <div class="description">
+                        <p>A smooth and creamy coffee with a gentle touch of espresso, topped with frothy goodness.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/mocha2.png" height="250" width="150" alt="">
+                    <h3>Mocha</h3>
+                    <div class="price">70</div>
+                    <div class="description">
+                        <p>A delightful blend of rich chocolate and bold espresso, perfect for a sweet caffeine fix.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/Black coffee.png" height="250" width="150" alt="">
+                    <h3>Black Coffee</h3>
+                    <div class="price">80</div>
+                    <div class="description">
+                        <p>A classic and straightforward coffee experience, strong and invigorating.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/Americano.png" height="250" width="150" alt="">
+                    <h3>Americano</h3>
+                    <div class="price">120</div>
+                    <div class="description">
+                        <p>A bold and robust coffee with a clean taste, made from espresso and hot water.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/iced coffee.png" height="250" width="150" alt="">
+                    <h3>Iced coffee</h3>
+                    <div class="price">100</div>
+                    <div class="description">
+                        <p>A refreshing coffee option, brewed and chilled to perfection, ideal for warm days.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/cremy cold coffee.png" height="250" width="150" alt="">
+                    <h3>Creamy cold coffee</h3>
+                    <div class="price">120</div>
+                    <div class="description">
+                        <p>A lusciously creamy coffee delight, blended with ice for a cool and satisfying treat.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/Macrons.png" height="250" width="150" alt="">
+                    <h3>Macrons</h3>
+                    <div class="price">80</div>
+                    <div class="description">
+                        <p>Delicate and colorful French macarons, a symphony of almond meringue cookies with a delightful filling.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/Pan cake.png" height="250" width="150" alt="">
+                    <h3>Pan Cake</h3>
+                    <div class="price">100</div>
+                    <div class="description">
+                        <p>Fluffy and golden pancakes served with your choice of toppings, a classic breakfast favorite.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="./images/waffles.png" height="250" width="150" alt="">
+                    <h3>Waffles</h3>
+                    <div class="price">100</div>
+                    <div class="description">
+                        <p> Crispy and light waffles, a perfect canvas for sweet or savory toppings, a brunch classic.</p>
+                    </div>
+                    <a href="#" class="btn add-to-cart">Add to cart</a>
+                </div>
+            </div>
+            
+        </section>
+
+       
+        <!-- Menu ends -->
+
+        <!-- Product section starts -->
+        <section class="products" id="products">
+            <h1 class="heading">Our <span>products</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/milk1.png" alt="Product 1">
+                    </div>
+                    <div class="content">
+                    <h3>Banana</h3>
+                    <div class="price">80</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/milk2.png" alt="Product 2">
+                    </div>
+                    <div class="content">
+                    <h3>Choco</h3>
+                    <div class="price">80</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/milk3.png" alt="Product 3">
+                    </div>
+                    <div class="content">
+                    <h3>Strawberry</h3>
+                    <div class="price">80</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/milk4.png" alt="Product 4">
+                    </div>
+                    <div class="content">
+                    <h3>Belgium choco</h3>
+                    <div class="price">100</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/milk5.png" alt="Product 5">
+                    </div>
+                    <div class="content">
+                    <h3>Mango</h3>
+                    <div class="price">100</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/milk6.png" alt="Product 6">
+                    </div>
+                    <div class="content">
+                    <h3>Straberry blast</h3>
+                    <div class="price">80</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/choco 1.png" width="200" height="100" alt="Product 1">
+                    </div>
+                    <div class="content">
+                    <h3>Chocolate Cake</h3>
+                    <div class="price">680</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/straw 2.png" width="200" height="100" alt="Product 7">
+                    </div>
+                    <div class="content">
+                    <h3>Strawberry Cake</h3>
+                    <div class="price">600</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./images/vanilla 3.png" width="200" height="100" alt="Product 8">
+                    </div>
+                    <div class="content">
+                    <h3>Vanilla Cake</h3>
+                    <div class="price">550</div></div>
+                    <a href="#" class="btn add-to-cart">Add to Cart</a>
+                </div>
+                </div>
+            </div>
+        </section>
+ <!-- Product section ends -->
+ <!-- Contact section starts -->
+<section class="contact" id="contact">
+    <h1 class="heading">Contact <span>Us</span></h1>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Visit Us</h2>
+            <p>Mocha Mania</p>
+            <p>Bangalore, 560001</p>
+        </div>
+        <div class="contact-info">
+            <h2>Contact Details</h2>
+            <p>Email: mocha@gmail.com</p>
+            <p>Phone: +91 54329-890080</p>
+        </div>
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Contact section ends -->
+
+        <script src="./script.js"></script>
+    </body>
